@@ -12,6 +12,6 @@ if(CATKIN_ENABLE_TESTING)
 endif()
 
 ### INSTALL ###
-install(DIRECTORY config launch urdf
+install(DIRECTORY config launch urdf robots
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
