@@ -3,8 +3,5 @@
 ## Left: The link that is considered an 'obstacle' during self-collision avoidance
 ## Right: The links of the component that are to be checked for self-collision with the 'obstacle'
 self_collision_map: {
-    head_3_link : [arm_3_link, arm_4_link, arm_5_link, arm_6_link, arm_7_link],
-    torso_3_link : [arm_4_link, arm_5_link, arm_6_link, arm_7_link],
-    base_link : [arm_5_link, arm_6_link, arm_7_link],
 }
 
